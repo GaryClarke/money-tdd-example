@@ -1,0 +1,25 @@
+- Be able to add amounts in two different currencies and convert the result given a set of exchange rates.
+
+- We need to be able to multiply an amount (price per share) by a number (number of shares) and receive an amount.
+
+✅ £5 + $10 = £10 IF rate is 2:1
+✅ Sum plus
+✅ Sum times
+❌ duplicate plus
+✅ £5 + £5 = £10
+❌ Make augend private
+❌ Make addend private
+❌ Make amount private
+✅ Reduce money with currency conversion
+
+✅ £5 * 2 = £10
+✅ GBP side-effects?
+✅ Make 'amount' private
+✅ GBP::equals()
+✅ $5 * 2 = $10
+✅ Common equals
+✅ GBP / USD duplication
+✅ Common times
+✅ Compare USD with GBP
+✅ Currency?
+
